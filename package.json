@@ -44,6 +44,10 @@
     "lint": "eslint --fix 'src/**/*.ts'",
     "build": "rimraf ./dist && rollup -c --bundleConfigAsCjs"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/planetadeleste/vue-mc-audits.git"
+  },
   "bugs": {
     "url": "https://github.com/planetadeleste/vue-mc-audits/issues"
   },
