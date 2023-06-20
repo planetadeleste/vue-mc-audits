@@ -2,7 +2,7 @@
   "name": "@planetadeleste/vue-mc-audits",
   "version": "1.0.0",
   "description": "Models and Collections for api audits plugin",
-  "main": "dist/vue-mc-adits.js",
+  "main": "dist/vue-mc-audits.js",
   "module": "dist/vue-mc-audits.es.js",
   "types": "src/index.d.ts",
   "author": "Alvaro Canepa",
