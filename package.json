@@ -1,0 +1,56 @@
+{
+  "name": "@planetadeleste/vue-mc-audits",
+  "version": "1.0.0",
+  "description": "Models and Collections for api audits plugin",
+  "main": "dist/vue-mc-adits.js",
+  "module": "dist/vue-mc-audits.es.js",
+  "types": "src/index.d.ts",
+  "author": "Alvaro Canepa",
+  "devDependencies": {
+    "@babel/core": "^7.14.0",
+    "@babel/preset-env": "^7.14.1",
+    "@planetadeleste/vue-mc": "^1.0.77",
+    "@planetadeleste/vue-mc-shopaholic": "^1.0.77",
+    "@rollup/plugin-babel": "^6.0.3",
+    "@rollup/plugin-commonjs": "^24.0.0",
+    "@rollup/plugin-json": "^6.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@rollup/plugin-typescript": "^10.0.1",
+    "@types/lodash": "^4.14.168",
+    "@typescript-eslint/eslint-plugin": "^4.22.0",
+    "@typescript-eslint/parser": "^4.22.0",
+    "@wwa/rollup-plugin-terser": "^1.0.1",
+    "axios": "^1.2.1",
+    "directory-tree": "^2.2.9",
+    "dts-bundle": "^0.7.3",
+    "eslint": "^7.25.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "generate-template-files": "^3.0.0",
+    "lodash": "^4.17.21",
+    "prettier": "^2.8.1",
+    "rollup": "^3.7.5",
+    "rollup-plugin-clear": "^2.0.7",
+    "ts-loader": "^9.1.1",
+    "tslib": "^2.2.0",
+    "typescript": "^4.2.4",
+    "vue": "^2",
+    "vue-mc": "^0.6.0",
+    "vuex": "^3",
+    "vuex-module-decorators": "^1.0.1",
+    "webpack": "^5.75.0"
+  },
+  "scripts": {
+    "generate": "node ./tools/generate.js",
+    "lint": "eslint --fix 'src/**/*.ts'",
+    "build": "rimraf ./dist && rollup -c --bundleConfigAsCjs"
+  },
+  "keywords": [
+    "vue",
+    "vuemc",
+    "audits"
+  ],
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
+}
